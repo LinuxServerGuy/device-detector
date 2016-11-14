@@ -119,8 +119,8 @@
 
 - regex: 'BazQux'
   name: 'BazQux Reader'
-  url: 'https://bazqux.com/fetcher'
   category: 'Feed Fetcher'
+  url: 'https://bazqux.com/fetcher'
   producer:
     name: ''
     url: ''
@@ -151,16 +151,16 @@
 
 - regex: 'Bloglovin'
   name: 'Bloglovin'
-  url: 'http://www.bloglovin.com'
   category: 'Feed Fetcher'
+  url: 'http://www.bloglovin.com'
   producer:
     name: ''
     url: ''
 
 - regex: 'Blogtrottr'
   name: 'Blogtrottr'
-  url: ''
   category: 'Feed Fetcher'
+  url: ''
   producer:
     name: 'Blogtrottr Ltd'
     url: 'https://blogtrottr.com/'
@@ -231,16 +231,16 @@
 
 - regex: 'coccoc/'
   name: 'Cốc Cốc Bot'
-  url: 'http://help.coccoc.com/'
   category: 'Search bot'
+  url: 'http://help.coccoc.com/'
   producer:
     name: 'Cốc Cốc'
     url: 'http://coccoc.com/'
 
 - regex: 'CommaFeed'
   name: 'CommaFeed'
-  url: 'http://www.commafeed.com'
   category: 'Feed Fetcher'
+  url: 'http://www.commafeed.com'
   producer:
     name: ''
     url: ''
@@ -343,48 +343,48 @@
 
 - regex: 'Feedbin'
   name: 'Feedbin'
-  url: 'http://feedbin.com/'
   category: 'Feed Fetcher'
+  url: 'http://feedbin.com/'
   producer:
     name: ''
     url: ''
 
 - regex: 'FeedBurner'
   name: 'FeedBurner'
-  url: 'http://www.feedburner.com'
   category: 'Feed Fetcher'
+  url: 'http://www.feedburner.com'
   producer:
     name: ''
     url: ''
 
 - regex: 'Feed Wrangler'
   name: 'Feed Wrangler'
-  url: 'https://feedwrangler.net/'
   category: 'Feed Fetcher'
+  url: 'https://feedwrangler.net/'
   producer:
     name: 'David Smith & Developing Perspective, LLC'
     url: 'https://david-smith.org'
 
 - regex: '(Meta)?Feedly(Bot|App)?'
   name: 'Feedly'
-  url: 'http://www.feedly.com'
   category: 'Feed Fetcher'
+  url: 'http://www.feedly.com'
   producer:
     name: ''
     url: ''
 
 - regex: 'Feedspot'
   name: 'Feedspot'
-  url: 'http://www.feedspot.com'
   category: 'Feed Fetcher'
+  url: 'http://www.feedspot.com'
   producer:
     name: ''
     url: ''
 
 - regex: 'Fever/[0-9]'
   name: 'Fever'
-  url: 'http://feedafever.com/'
   category: 'Feed Fetcher'
+  url: 'http://feedafever.com/'
   producer:
     name: ''
     url: ''
@@ -479,8 +479,8 @@
 
 - regex: 'kouio'
   name: 'Kouio'
-  url: 'http://kouio.com/'
   category: 'Feed Fetcher'
+  url: 'http://kouio.com/'
   producer:
     name: ''
     url: ''
@@ -511,6 +511,7 @@
 
 - regex: 'ltx71'
   name: 'LTX71'
+  category: ''
   url: 'http://ltx71.com/'
   producer:
     name: ''
@@ -534,8 +535,8 @@
 
 - regex: 'MagpieRSS'
   name: 'MagpieRSS'
-  url: 'http://magpierss.sourceforge.net/'
   category: 'Feed Parser'
+  url: 'http://magpierss.sourceforge.net/'
   producer:
     name: ''
     url: ''
@@ -598,24 +599,24 @@
 
 - regex: 'Netvibes'
   name: 'Netvibes'
-  url: 'http://www.netvibes.com/'
   category: 'Feed Fetcher'
+  url: 'http://www.netvibes.com/'
   producer:
     name: ''
     url: ''
 
 - regex: 'NewsBlur .*(Fetcher|Finder)'
   name: 'NewsBlur'
-  url: 'http://www.newsblur.com'
   category: 'Feed Fetcher'
+  url: 'http://www.newsblur.com'
   producer:
     name: ''
     url: ''
 
 - regex: 'NewsGatorOnline'
   name: 'NewsGator'
-  url: 'http://www.newsgator.com'
   category: 'Feed Fetcher'
+  url: 'http://www.newsgator.com'
   producer:
     name: ''
     url: ''
@@ -720,6 +721,9 @@
   name: 'Rainmeter'
   category: 'Crawler'
   url: 'https://www.rainmeter.net'
+  producer:
+    name: 'Rainmeter'
+    url: 'https://www.rainmeter.net'
 
 - regex: 'redditbot'
   name: 'Reddit Bot'
@@ -757,6 +761,9 @@
   name: 'Scrapy'
   category: 'Crawler'
   url: 'http://scrapy.org'
+  producer:
+    name: 'Scrapy'
+    url: 'http://scrapy.org'
 
 - regex: 'Screaming Frog SEO Spider'
   name: 'Screaming Frog SEO Spider'
@@ -824,16 +831,16 @@
 
 - regex: 'SilverReader'
   name: 'SilverReader'
-  url: 'http://silverreader.com'
   category: 'Feed Fetcher'
+  url: 'http://silverreader.com'
   producer:
     name: ''
     url: ''
 
 - regex: 'SimplePie'
   name: 'SimplePie'
-  url: 'http://www.simplepie.org'
   category: 'Feed Parser'
+  url: 'http://www.simplepie.org'
   producer:
     name: ''
     url: ''
@@ -912,7 +919,11 @@
 
 - regex: 'TelegramBot'
   name: 'TelgramBot'
+  category: 'Search bot'
   url: 'https://telegram.org/blog/bot-revolution'
+  producer:
+    name: 'TelgramBot'
+    url: 'https://telegram.org'
 
 - regex: 'TinEye-bot'
   name: 'TinEye Crawler'
@@ -924,8 +935,8 @@
 
 - regex: 'Tiny Tiny RSS'
   name: 'Tiny Tiny RSS'
-  url: 'http://tt-rss.org'
   category: 'Feed Fetcher'
+  url: 'http://tt-rss.org'
   producer:
     name: ''
     url: ''
@@ -1126,6 +1137,9 @@
   name: 'Yourls'
   category: 'Crawler'
   url: 'http://yourls.org'
+  producer:
+    name: 'Yourls'
+    url: 'http://yourls.org'
 
 - regex: 'YRSpider|YYSpider'
   name: 'Yunyun Bot'
@@ -1185,8 +1199,8 @@
 
 - regex: 'Pinterest/\d\.\d.*www\.pinterest\.com.*'
   name: 'Pinterest'
-  url: ''
   category: 'Crawler'
+  url: ''
   producer:
     name: 'Pinterest'
     url: 'http://www.pinterest.com/'
@@ -1218,60 +1232,154 @@
 - regex: 'Zao/'
   name: 'Zao'
   category: 'Crawler'
+  url: ''
+  producer:
+    name: 'Zao'
+    url: ''
 
 - regex: 'lycos'
   name: 'Lycos'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'Lycos'
+    url: ''
 
 - regex: 'Slurp'
   name: 'Inktomi Slurp'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'Inktomi Slurp'
+    url: ''
 
 - regex: 'Speedy Spider'
   name: 'Speedy'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'Speedy'
+    url: ''
 
 - regex: 'ScoutJet'
   name: 'ScoutJet'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'ScoutJet'
+    url: ''
 
 - regex: 'nrsbot|netresearch'
   name: 'NetResearchServer'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'NetResearchServer'
+    url: ''
 
 - regex: 'scooter'
   name: 'Scooter'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'Scooter'
+    url: ''
 
 - regex: 'gigabot'
   name: 'Gigabot'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'Gigabot'
+    url: ''
 
 - regex: 'charlotte'
   name: 'Charlotte'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'Charlotte'
+    url: ''
 
 - regex: 'Pompos'
   name: 'Pompos'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'Pompos'
+    url: ''
 
 - regex: 'ichiro'
   name: 'ichiro'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'ichiro'
+    url: ''
 
 - regex: 'PagePeeker'
   name: 'PagePeeker'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'PagePeeker'
+    url: ''
 
 - regex: 'WebThumbnail'
   name: 'WebThumbnail'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'WebThumbnail'
+    url: ''
 
 - regex: 'Willow Internet Crawler'
   name: 'Willow Internet Crawler'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'Willow Internet Crawler'
+    url: ''
 
 - regex: 'EmailWolf'
   name: 'EmailWolf'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'EmailWolf'
+    url: ''
 
 - regex: 'NetLyzer FastProbe'
   name: 'NetLyzer FastProbe'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'NetLyzer FastProbe'
+    url: ''
 
 - regex: 'AdMantX.*admantx\.com'
   name: 'ADMantX'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'ADMantX'
+    url: ''
 
 - regex: 'Server Density Service Monitoring.*'
   name: 'Server Density'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'Server Density'
+    url: ''
 
 - regex: '(A6-Indexer|nuhk|TsolCrawler|Yammybot|Openbot|Gulper Web Bot|grub-client|Download Demon|SearchExpress|Microsoft URL Control|borg|altavista|teoma|blitzbot|oegp|furlbot|http%20client|polybot|htdig|mogimogi|larbin|scrubby|searchsight|seekbot|semanticdiscovery|snappy|vortex(?! Build)|zeal|fast-webcrawler|converacrawler|dataparksearch|findlinks|BrowserMob|HttpMonitor|ThumbShotsBot|URL2PNG|ZooShot|GomezA|Google SketchUp|Read%20Later|Minimo|RackspaceBot)'
   name: 'Generic Bot'
+  category: 'Other'
+  url: ''
+  producer:
+    name: 'Generic Bot'
+    url: ''
 
 # Generic detections
 
@@ -1285,3 +1393,8 @@
 
 - regex: '[a-z0-9\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider)([^a-z]|$)'
   name: 'Generic Bot'
+  category: 'Crawler'
+  url: ''
+  producer:
+    name: 'Generic Crawler'
+    url: ''
